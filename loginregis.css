@@ -1,0 +1,56 @@
+.form_deg
+{
+    padding-top: 200px;
+}
+
+.title_deg
+{
+    background-color: white;
+    padding-top: 20px;
+    width: 400px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.label_deg
+{
+    display: block;
+    color:crimson;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.btn-primary
+{
+    background-color: crimson;
+    color: white;
+    border-color: white;
+    border-style: double;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.input
+{
+    border-style: groove;
+    margin-bottom: 20px;
+}
+
+.login_form
+{
+    background-color: white;
+    padding-top: 30px;
+    width: 400px;
+}
+
+.web
+{
+    background-color: blue;
+}
+
+
+  

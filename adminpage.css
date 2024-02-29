@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+  
+  .header-admin {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: normal;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  
+  .konten-admin {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-weight: bold;
+    font-size: normal;
+    flex-grow: 1;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .grid-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .grid-item h3 {
+    margin-top: 5px;
+  }
+  
+  .footer-admin {
+    background-color: blue;
+    color: red;
+    padding: 10px;
+    font-weight: bold;
+    font-size: normal;
+  }
+  
+  .profile-admin {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-weight: bold;
+    font-size: normal;
+    flex-grow: 1;
+  }
+
+  .tambah-admin {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-weight: bold;
+    font-size: normal;
+    flex-grow: 1;
+  }
+
+  .edit-admin {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-weight: bold;
+    font-size: normal;
+    flex-grow: 1;
+  }
+  
+  .label_deg
+  {
+      display: block;
+      color:crimson;
+      width: auto;
+      text-align: left;
+      font-weight: bold;
+      padding-bottom: 10px;
+  }
