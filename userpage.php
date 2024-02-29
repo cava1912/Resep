@@ -1,5 +1,5 @@
 <?php
-include 'C:/xampp/htdocs/Pemweb/Resep/fungsi/bookmark.php';
+include 'bookmark.php';
 
 if(!isset($_SESSION['username'])) {
     header("location:login.php");
