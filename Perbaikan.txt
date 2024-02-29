@@ -1,0 +1,2 @@
+- Buat suapaya header di masing masing file sesuai
+- kalau mau buat javascript buat css nya supaya ada animasi
